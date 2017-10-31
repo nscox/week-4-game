@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="theme.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Crystals!</title>
+
+    <!--To anyone who grades this homework: this code dosen't work, it's terrible I need help with javascript. 
+I'm still waiting for the tutoring people to get back to me, but until then, I will continue to
+come in early and stay late and do 1 on 1's and work with Khan Academy to get this stuff ingrained 
+into my head. -Neil 
+
+Pseudo Code:
+At game start, computer will choose a random number thats to be displayed 
+on UI. In addition, four crystal image buttons, each randomly assigned
+a number by the computer, along side an entry field that displays a number
+when the user clicks one of the crystals. The idea is to match the number exactly
+that the computer has already displayed in a separate "Match this Number" field (box),
+this field box records the numbers and add them up as the USER selects them. The idea is
+to match the computer selected number exactly without going over in order to win. If USER
+goes over, USER instantly loses. This will involve IF STATEMENTS, MATH.FLOOR or MATH.CELING as 
+well as For loops
+
+-->
+
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <h1 class="text-center">The Crystal Collector</h1>
+        <h3 class="text-center">Count Your Crystals. . .</h3>
+    </div>
+    <p>You will be given a random number at the start of the game.</p>
+    <p>There are four crystals. By clicking on a crysal you will add a specific amount of points to your total score.</p>
+    <p>You win the game by
+        <strong>matching</strong> your total score to the random number.
+    </p>You lose the game if your total score goes above your random number.</p>
+    <p>The value of each crystal is hidden from you until you click on it.</p>
+    <p></p>Each crystals value will change anew randomly at the start of each new game. Good luck!</p>
+
+    <div>
+
+
+
+        <img src="http://www.gemselect.com/other-info/graphics/yellow-sapphire_1_large.jpg https://www.gemsociety.org/wp-content/uploads/2015/12/3.03ct-Oval-Ruby-from-Winza.png">
+        <img src="https://cdn1.iconfinder.com/data/icons/luxury-5/512/Emerald_diamond-128.png">
+        <img src="http://gemstoneguru.com/wp-content/uploads/2013/05/Sapphire_32_Blue_Sapphire.png http://www.stephenmorrisauthor.com/wp-content/uploads/2013/05/Emerald-01.jpg">
+
+
+    </div>
+
+    <style>
+        body {
+            background-image: url("http://s1.picswalls.com/wallpapers/2014/08/16/glitter-wallpaper_072436602_203.jpg");
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            overflow: hidden;
+        }
+    </style>
+
+    <SCRIPT LANGUAGE="JavaScript">
+
+
+        var guessme = Math.round(Math.random() * (99) + 1);
+        var speech = 'Guess my number (from 1 to 100)';
+
+     
+        
+
+
+</body >
+
+</html >

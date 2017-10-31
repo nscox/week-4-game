@@ -1,0 +1,26 @@
+#body {
+    background-image: url("http://s1.picswalls.com/wallpapers/2014/08/16/glitter-wallpaper_072436602_203.jpg");
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+
+}
+
+#googlefont {
+    background-color: blue;
+    font-family: 'Dancing Script', cursive, 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+    width: 20px;
+    border: 20px solid lavender;
+    padding: 20px;
+    margin: 20px;
+}
+
+#bigbox {
+box-sizing: 100px;
+
+
+}
+
